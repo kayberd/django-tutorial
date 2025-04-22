@@ -27,4 +27,7 @@ django-admin startproject <project_name>
 python manage.py startapp <app_name>
 ```
 
-
+### Run server
+```bash
+python manage.py runserver 
+``` 
