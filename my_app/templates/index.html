@@ -123,13 +123,11 @@
                             <div>
                                 <h4 class="title"><a href="#" class="stretched-link">{{feature.name}}</a></h4>
                                 <p class="description">{{feature.details}}</p>
-                                {% if feature.is_true == True %}
-                                <p> This feature is true </p>
-                                {% else %}
-                                <p> This feature is false </p>
+                                {% if feature.name == 'Quick' %}
+                                <p class="description">This feature says our site is Quick</p>
                                 {% endif %}
-                                    
                             </div>
+
                         </div>
                     </div>
                     {% endfor %}
